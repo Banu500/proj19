@@ -16,8 +16,8 @@ public class DetailsActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
-        Button btn = (Button)findViewById(R.id.map_btn);
-        Button btn2 = (Button)findViewById(R.id.edit_btn);
+        Button btn = (Button)findViewById(R.id.directions_btn);
+        Button btn2 = (Button)findViewById(R.id.home1_btn);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/save_id"
+            android:id="@+id/home1_btn"
             android:layout_width="205dp"
             android:layout_height="41dp"
             android:text="@string/btn_add"
@@ -23,7 +23,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/delete_id"
+            android:id="@+id/directions_btn"
             android:layout_width="205dp"
             android:layout_height="41dp"
             android:text="@string/btn_contact"

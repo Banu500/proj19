@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
 //        }, 2000);
 
 
-        Button btn = (Button)findViewById(R.id.save_id);
-        Button btn2 = (Button)findViewById(R.id.delete_id);
+        Button btn = (Button)findViewById(R.id.home1_btn);
+        Button btn2 = (Button)findViewById(R.id.directions_btn);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

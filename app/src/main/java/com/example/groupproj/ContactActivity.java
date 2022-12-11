@@ -14,8 +14,8 @@ public class ContactActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact);
-        Button btn = (Button)findViewById(R.id.save_id);
-        Button btn2 = (Button)findViewById(R.id.delete_id);
+        Button btn = (Button)findViewById(R.id.home1_btn);
+        Button btn2 = (Button)findViewById(R.id.directions_btn);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

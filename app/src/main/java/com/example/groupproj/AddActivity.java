@@ -4,17 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.TextUtils;
-import android.util.Log;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.RatingBar;
 import android.widget.TextView;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class AddActivity extends AppCompatActivity {
     RatingBar ratingbar;
@@ -31,7 +24,7 @@ public class AddActivity extends AppCompatActivity {
         EditText tags = findViewById(R.id.Tags);
         EditText desc = findViewById(R.id.desc_id);
         ratingbar = (RatingBar)findViewById(R.id.ratingbar_id);
-        TextView out = findViewById(R.id.save_id);
+        TextView out = findViewById(R.id.home1_btn);
 
         out.setOnClickListener(view -> {
             String name_input = name.getText().toString();

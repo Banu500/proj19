@@ -48,7 +48,7 @@ public class AddActivity extends AppCompatActivity {
             //Resturant.add(rating);
 
             Intent intent = new Intent(AddActivity.this, MainActivity.class);
-            intent.putExtra("key", resturants);
+            //intent.putExtra("key", resturants);
             startActivity(intent);
 
 

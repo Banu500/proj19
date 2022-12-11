@@ -8,27 +8,29 @@
 
     >
 
-    <Button
-        android:id="@+id/edit1_btn"
-        android:layout_width="200dp"
-        android:layout_height="52dp"
-        android:text="Edit"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.138"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.957" />
+        app:layout_constraintStart_toStartOf="parent">
 
-    <Button
-        android:id="@+id/emailbtn"
-        android:layout_width="200dp"
-        android:layout_height="52dp"
-        android:text="Send Email"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.769"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.957" />
+        <Button
+            android:id="@+id/save_id"
+            android:layout_width="205dp"
+            android:layout_height="41dp"
+            android:text="@string/btn_edit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/delete_id"
+            android:layout_width="205dp"
+            android:layout_height="41dp"
+            android:text="@string/btn_send_email"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
 //        }, 2000);
 
 
-        Button btn = (Button)findViewById(R.id.adda_btn);
-        Button btn2 = (Button)findViewById(R.id.contact_btn);
+        Button btn = (Button)findViewById(R.id.save_id);
+        Button btn2 = (Button)findViewById(R.id.delete_id);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

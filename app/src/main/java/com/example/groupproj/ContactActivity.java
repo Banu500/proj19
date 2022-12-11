@@ -2,14 +2,10 @@ package com.example.groupproj;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.content.Intent;
-import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 public class ContactActivity extends AppCompatActivity {
 
@@ -18,8 +14,8 @@ public class ContactActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact);
-        Button btn = (Button)findViewById(R.id.edit1_btn);
-        Button btn2 = (Button)findViewById(R.id.emailbtn);
+        Button btn = (Button)findViewById(R.id.save_id);
+        Button btn2 = (Button)findViewById(R.id.delete_id);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

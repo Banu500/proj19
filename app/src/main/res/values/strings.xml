@@ -14,5 +14,6 @@
     <string name="btn_search">🔍</string>
     <string name="btn_delete">Delete</string>
     <string name="btn_add">Add</string>
+    <string name="btn_send_email">Send Email</string>
 
 </resources>

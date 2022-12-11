@@ -37,7 +37,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/adda_btn"
+            android:id="@+id/save_id"
             android:layout_width="205dp"
             android:layout_height="41dp"
             android:text="@string/btn_add_restaurant"
@@ -45,7 +45,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/contact_btn"
+            android:id="@+id/delete_id"
             android:layout_width="205dp"
             android:layout_height="41dp"
             android:text="@string/btn_about"

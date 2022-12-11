@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">groupproj</string>
+    <string name="delete_button">delete</string>
+    <string name="add_text">Add</string>
+    <string name="save_button">save</string>
+    <string name="back_button">back</string>
 </resources>

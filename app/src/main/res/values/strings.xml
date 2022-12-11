@@ -1,7 +1,16 @@
 <resources>
     <string name="app_name">groupproj</string>
-    <string name="delete_button">delete</string>
-    <string name="add_text">Add</string>
-    <string name="save_button">save</string>
-    <string name="back_button">back</string>
+    <string name="btn_add_restaurant">Add Restaurant</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_map">Map</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_contact_member">Contact Member</string>
+    <string name="btn_directions">Directions</string>
+    <string name="btn_about">About</string>
+    <string name="btn_contact">Contact</string>
+    <string name="btn_close_app">Close App</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_details">Details</string>
+    <string name="btn_search">🔍</string>
+
 </resources>

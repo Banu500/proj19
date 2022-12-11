@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/directions_btn"
+        android:id="@+id/close_app"
         android:layout_width="196dp"
         android:layout_height="41dp"
         android:text="@string/btn_about"

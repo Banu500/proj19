@@ -8,7 +8,7 @@
     tools:context=".AddActivity">
 
     <Button
-        android:id="@+id/directions_btn"
+        android:id="@+id/close_app"
         android:layout_width="196dp"
         android:layout_height="41dp"
         android:text="@string/btn_delete"
@@ -83,7 +83,7 @@
         android:layout_width="278dp"
         android:layout_height="76dp"
         android:layout_marginBottom="128dp"
-        app:layout_constraintBottom_toTopOf="@+id/directions_btn"
+        app:layout_constraintBottom_toTopOf="@+id/close_app"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

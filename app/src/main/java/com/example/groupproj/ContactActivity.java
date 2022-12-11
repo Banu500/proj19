@@ -2,32 +2,27 @@ package com.example.groupproj;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.Bundle;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-
-public class AboutActivity extends AppCompatActivity {
+public class ContactActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about);
-        Button btn = (Button)findViewById(R.id.adda_btn);
-        Button btn2 = (Button)findViewById(R.id.contact_btn);
+        setContentView(R.layout.activity_contact);
+        Button btn = (Button)findViewById(R.id.edit1_btn);
+        Button btn2 = (Button)findViewById(R.id.emailbtn);
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AboutActivity.this, AddinfoActivity.class));
-            }
-        });
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(AboutActivity.this, ContactActivity.class));
+                startActivity(new Intent(ContactActivity.this, AddinfoActivity.class));
             }
         });
     }

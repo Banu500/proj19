@@ -4,29 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AboutActivity">
+    tools:context=".ContactActivity">
 
     <Button
-        android:id="@+id/adda_btn"
-        android:layout_width="175dp"
-        android:layout_height="52dp"
-        android:text="Add"
+        android:id="@+id/edit1_btn"
+        android:layout_width="142dp"
+        android:layout_height="57dp"
+        android:text="Edit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintHorizontal_bias="0.138"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.92" />
+        app:layout_constraintVertical_bias="0.957" />
 
     <Button
-        android:id="@+id/contact_btn"
-        android:layout_width="174dp"
-        android:layout_height="52dp"
-        android:text="Contact"
+        android:id="@+id/emailbtn"
+        android:layout_width="142dp"
+        android:layout_height="57dp"
+        android:text="Send Email"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintHorizontal_bias="0.769"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.92" />
+        app:layout_constraintVertical_bias="0.957" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,5 +12,7 @@
     <string name="btn_save">Save</string>
     <string name="btn_details">Details</string>
     <string name="btn_search">🔍</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_add">Add</string>
 
 </resources>

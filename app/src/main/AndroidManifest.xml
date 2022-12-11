@@ -34,7 +34,8 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".AddActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".HomeActivity"
             android:exported="true">

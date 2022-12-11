@@ -14,7 +14,7 @@
         android:layout_marginStart="67dp"
         android:layout_marginEnd="64dp"
         android:layout_marginBottom="16dp"
-        android:text="@string/delete_button"
+        android:text="@string/btn_delete"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/save_id" />
@@ -55,15 +55,13 @@
         android:id="@+id/add_title"
         android:layout_width="143dp"
         android:layout_height="53dp"
-        android:layout_marginStart="36dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="128dp"
         android:layout_marginBottom="56dp"
-        android:text="@string/add_text"
+        android:text="@string/btn_add_restaurant"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/name_id"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/back_id"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
@@ -121,25 +119,11 @@
         android:layout_marginTop="51dp"
         android:layout_marginEnd="47dp"
         android:layout_marginBottom="25dp"
-        android:text="@string/save_button"
+        android:text="@string/btn_save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/delete_id"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ratingbar_id" />
-
-    <Button
-        android:id="@+id/back_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="66dp"
-        android:text="@string/back_button"
-        app:layout_constraintBottom_toTopOf="@+id/name_id"
-        app:layout_constraintEnd_toStartOf="@+id/add_title"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

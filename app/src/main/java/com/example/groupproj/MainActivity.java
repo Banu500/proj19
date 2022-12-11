@@ -5,14 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.Button;
-
-import android.os.Handler;
-
-
-
-import java.util.logging.LogRecord;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
 //        }, 2000);
 
 
-        Button btn = (Button)findViewById(R.id.add_button);
-        Button btn2 = (Button)findViewById(R.id.about_button);
+        Button btn = (Button)findViewById(R.id.adda_btn);
+        Button btn2 = (Button)findViewById(R.id.contact_btn);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

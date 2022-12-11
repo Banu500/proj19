@@ -32,7 +32,6 @@ public class AddActivity extends AppCompatActivity {
         EditText desc = findViewById(R.id.desc_id);
         ratingbar = (RatingBar)findViewById(R.id.ratingbar_id);
         TextView out = findViewById(R.id.save_id);
-        Button btn = findViewById(R.id.back_id);
 
         out.setOnClickListener(view -> {
             String name_input = name.getText().toString();

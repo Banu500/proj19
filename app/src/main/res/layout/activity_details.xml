@@ -6,29 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".DetailsActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/home1_btn"
+        android:layout_width="196dp"
         android:layout_height="41dp"
+        android:layout_marginEnd="19dp"
+        android:text="@string/btn_edit"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintEnd_toStartOf="@+id/directions_btn"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <Button
-            android:id="@+id/home1_btn"
-            android:layout_width="205dp"
-            android:layout_height="41dp"
-            android:text="@string/btn_edit"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <Button
-            android:id="@+id/directions_btn"
-            android:layout_width="205dp"
-            android:layout_height="41dp"
-            android:text="@string/btn_map"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
+    <Button
+        android:id="@+id/directions_btn"
+        android:layout_width="196dp"
+        android:layout_height="41dp"
+        android:text="@string/btn_map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

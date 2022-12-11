@@ -7,30 +7,23 @@
     android:layout_height="match_parent"
     tools:context=".AddActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/directions_btn"
+        android:layout_width="196dp"
         android:layout_height="41dp"
+        android:text="@string/btn_delete"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintEnd_toEndOf="parent" />
 
-        <Button
-            android:id="@+id/home1_btn"
-            android:layout_width="205dp"
-            android:layout_height="41dp"
-            android:text="@string/btn_save"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <Button
-            android:id="@+id/directions_btn"
-            android:layout_width="205dp"
-            android:layout_height="41dp"
-            android:text="@string/btn_delete"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/home1_btn"
+        android:layout_width="196dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/btn_save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/directions_btn"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/address_id"
@@ -91,10 +84,9 @@
         android:id="@+id/ratingbar_id"
         android:layout_width="278dp"
         android:layout_height="76dp"
-        android:layout_marginBottom="128dp"
-        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="486dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,30 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".AddinfoActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/home1_btn"
+        android:layout_width="196dp"
         android:layout_height="41dp"
+        android:layout_marginEnd="19dp"
+        android:text="@string/btn_contact_member"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintEnd_toStartOf="@+id/directions_btn"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <Button
-            android:id="@+id/home1_btn"
-            android:layout_width="205dp"
-            android:layout_height="41dp"
-            android:text="@string/btn_contact_member"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <Button
-            android:id="@+id/directions_btn"
-            android:layout_width="205dp"
-            android:layout_height="41dp"
-            android:text="@string/btn_save"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/directions_btn"
+        android:layout_width="196dp"
+        android:layout_height="41dp"
+        android:text="@string/btn_save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/email_box"

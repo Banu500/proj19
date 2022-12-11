@@ -6,6 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+<!--    android:background="@drawable/ic__669708345yacht_on_blue_background"-->
+
 
     <SearchView
         android:id="@+id/restaurant_search"

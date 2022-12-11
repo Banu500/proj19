@@ -19,7 +19,7 @@ import java.util.List;
 public class AddActivity extends AppCompatActivity {
     RatingBar ratingbar;
     ListView show;
-    public ArrayList<Resturant> resturants = new ArrayList<Resturant>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,9 +41,8 @@ public class AddActivity extends AppCompatActivity {
             String desc_input = desc.getText().toString();
             String rating =String.valueOf(ratingbar.getRating());
 
-            Resturant res = new Resturant(name_input, address_input);
 
-            resturants.add(res);
+
             //Resturant.add(tags_input);
             //Resturant.add(desc_input);
             //Resturant.add(rating);

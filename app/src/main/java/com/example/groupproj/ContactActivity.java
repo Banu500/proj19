@@ -2,12 +2,14 @@ package com.example.groupproj;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 public class ContactActivity extends AppCompatActivity {
 
@@ -37,7 +39,5 @@ public class ContactActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public boolean onCreateOptionsMenu(Menu menu) {
-        return true;
-    }
+
 }

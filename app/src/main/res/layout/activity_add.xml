@@ -25,25 +25,27 @@
         android:layout_height="wrap_content"
         android:hint="tags"
         android:minHeight="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
+        app:layout_constraintBottom_toTopOf="@+id/description_box"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.688" />
+        app:layout_constraintTop_toBottomOf="@+id/address_box"
+        app:layout_constraintVertical_bias="0.09"
+        android:inputType="text"/>
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/address_box"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
         android:hint="address"
         android:minHeight="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.493" />
+        android:inputType="text"
+        />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/description_box"
@@ -56,30 +58,20 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.696" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout2"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </com.google.android.material.textfield.TextInputLayout>
+        app:layout_constraintVertical_bias="0.475" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/restaurant_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         android:hint="Restaurant name"
         android:minHeight="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251" />
+        android:inputType="text"/>
 
     <Button
         android:id="@+id/details_btn"

@@ -7,10 +7,10 @@
     tools:context=".AboutActivity">
 
     <Button
-        android:id="@+id/close_app"
+        android:id="@+id/contact_app"
         android:layout_width="196dp"
         android:layout_height="41dp"
-        android:text="@string/btn_close_app"
+        android:text="@string/btn_contact"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

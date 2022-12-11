@@ -17,7 +17,7 @@ public class LocationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location);
         Button btn = (Button)findViewById(R.id.home1_btn);
-        Button btn2 = (Button)findViewById(R.id.close_app);
+        Button btn2 = (Button)findViewById(R.id.contact_app);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

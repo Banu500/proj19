@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/close_app"
+        android:id="@+id/contact_app"
         android:layout_width="196dp"
         android:layout_height="41dp"
         android:text="@string/btn_send_email"

@@ -2,8 +2,10 @@ package com.example.groupproj;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.content.Intent;
+import android.os.Handler;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -23,6 +25,17 @@ public class ContactActivity extends AppCompatActivity {
                 startActivity(new Intent(ContactActivity.this, AddinfoActivity.class));
             }
         });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View v) {
+                    Intent mailIntent = new Intent(Intent.ACTION_VIEW);
+                Uri data = Uri.parse("mailto:?subject=" + "subject text"+ "&body=" + "body text " + "&to=" + "destination@mail.com");
+                mailIntent.setData(data);
+                startActivity(Intent.createChooser(mailIntent, "Send mail..."));
+            }
+        });
+
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

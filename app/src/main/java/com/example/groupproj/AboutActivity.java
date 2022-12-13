@@ -18,7 +18,7 @@ public class AboutActivity extends AppCompatActivity {
         setContentView(R.layout.activity_about);
         Button btn = (Button)findViewById(R.id.home1_btn);
         Button btn2 = (Button)findViewById(R.id.contact_member12);
-        Button btn3 = (Button)findViewById(R.id.contact_member13);
+        Button btn3 = (Button)findViewById(R.id.contact_app);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,6 +26,12 @@ public class AboutActivity extends AppCompatActivity {
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(AboutActivity.this, ContactActivity.class));
+            }
+        });
+        btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(AboutActivity.this, ContactActivity.class));

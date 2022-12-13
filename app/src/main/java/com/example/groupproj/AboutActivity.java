@@ -17,7 +17,8 @@ public class AboutActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
         Button btn = (Button)findViewById(R.id.home1_btn);
-        Button btn2 = (Button)findViewById(R.id.contact_app);
+        Button btn2 = (Button)findViewById(R.id.contact_member12);
+        Button btn3 = (Button)findViewById(R.id.contact_member13);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -30,7 +30,7 @@ public class DetailsActivity extends AppCompatActivity {
 
                                            @Override
                                            public void run() {
-                                               Uri gmmIntentUri = Uri.parse("geo:0,0?q=196 Bloor St");
+                                               Uri gmmIntentUri = Uri.parse("geo:0,0?q=196 Bloor St W, Toronto, ON M5S 1T8");
                                                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                                                mapIntent.setPackage("com.google.android.apps.maps");
                                                startActivity(mapIntent);
